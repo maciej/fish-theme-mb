@@ -1,16 +1,9 @@
-<div align="center">
-  <a href="http://github.com/fish-shell/omf">
-  <img width=90px  src="https://cloud.githubusercontent.com/assets/8317250/8510172/f006f0a4-230f-11e5-98b6-5c2e3c87088f.png">
-  </a>
-</div>
-<br>
-
-> Default theme for [Oh My Fish][omf-link].
+> Default theme for [Oh My Fish][omf-link] with adjustments
 
 ## Install
 
 ```fish
-$ omf theme default
+$ omf install https://github.com/maciej/fish-theme-mb
 ```
 
 ## Features
@@ -18,6 +11,7 @@ $ omf theme default
 * All the things you need to know about Git in a glance.
 * A subtle timestamp hanging out off to the right.
 * Previous command status.
+* Displays user@host
 
 ## Screenshot
 
@@ -30,6 +24,11 @@ $ omf theme default
 Only display the folder name:
 ```
   set -g theme_short_path yes
+```
+
+Hide user@host:
+```
+  set -g theme_hide_userhost yes
 ```
 
 # License
