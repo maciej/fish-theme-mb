@@ -4,6 +4,7 @@
 
 ```fish
 $ omf install https://github.com/maciej/fish-theme-mb
+$ omf theme fish-theme-mb
 ```
 
 ## Features
